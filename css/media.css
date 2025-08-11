@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  nav .container {
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  nav .container .icon {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 15px;
+    font-size: 24px;
+    all: unset;
+  }
+
+  nav .container ul,
+  .btn {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  nav .container ul.show {
+    display: flex;
+  }
+
+  section .container {
+    flex-direction: column;
+  }
+
+  section .ltext,
+  section .rtext {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  /* sec2 */
+  .sec {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sec-text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .sec-form {
+    align-items: center;
+  }
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
